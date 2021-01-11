@@ -13,3 +13,6 @@ As a DM, I've always tried to create unique cities in my RPG Games. To do that, 
 My idea for Finger Snapper is to have 2 principal features:
 - [ ] Generate Cities
 - [ ] Generate Events/Situations that affects a city
+
+## Development Progress 📈
+If you want, you can follow the development progress throught the [project's Kanban](https://github.com/deckerjeferson/finger-snapper/projects/1) 
