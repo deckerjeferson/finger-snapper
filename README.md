@@ -1,44 +1,15 @@
-# finger-snapper
+# Finger Snapper 🏰
+Finger Snapper is a Medieval City Generator, to help GM's create a more diverse cities in their games in a finger snap. 
 
-FIXME: description
+> Also, this is a pet project to help me become a better clojure developer.
 
-## Installation
+## Inspiration 🤔
+As a DM, I've always tried to create unique cities in my RPG Games. To do that, I use the resources bellow:
+- [Dungeon World's Steadings](https://www.dungeonworldsrd.com/gamemastering/the-world/)
+- [Battle Brothers' Settlement Situations](https://battlebrothers.fandom.com/wiki/Settlement_Situations)
+- [D20PFSRD Kingdom Building Events](https://www.d20pfsrd.com/gamemastering/other-rules/kingdom-building/events/)
 
-Download from http://example.com/FIXME.
-
-## Usage
-
-FIXME: explanation
-
-    $ java -jar finger-snapper-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2021 FIXME
-
-This program and the accompanying materials are made available under the
-terms of the Eclipse Public License 2.0 which is available at
-http://www.eclipse.org/legal/epl-2.0.
-
-This Source Code may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License, v. 2.0 are satisfied: GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or (at your
-option) any later version, with the GNU Classpath Exception which is available
-at https://www.gnu.org/software/classpath/license.html.
+## Features 🗃️
+My idea for Finger Snapper is to have 2 principal features:
+- [ ] Generate Cities
+- [ ] Generate Events/Situations that affects a city
