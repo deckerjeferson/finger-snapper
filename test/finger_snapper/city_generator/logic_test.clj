@@ -1,5 +1,5 @@
 (ns finger-snapper.city-generator.logic-test
-  (:require [finger-snapper.city-generator.logic :refer [get-name-from-list]]
+  (:require [finger-snapper.city-generator.city-generator :refer [get-name-from-list]]
             [clojure.test :as t :refer [deftest testing is]]
             [clojure.test.check.generators :as gen]
             [clojure.test.check.properties :as p]

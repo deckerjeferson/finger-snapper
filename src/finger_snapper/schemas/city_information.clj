@@ -1,6 +1,21 @@
-(ns finger-snapper.schemas.city-information)
+(ns finger-snapper.schemas.city-information
+  (:require [schema.core :as s]))
 
-(def Prosperity
-  {:level       s/Int
-   :description s/Str
-   :name        s/Str})
+(def Tag
+  {:name s/Str
+   :description s/Str})
+
+(def Caracteristic
+  {:description s/Str
+   :tags [Tag]
+   :modifiers {:prosperity s/Int
+               :population s/Int
+               :defenses s/Int}})
+
+(def Steading
+  {:name s/Str
+   :prosperity s/Int
+   :defenses s/Int
+   :population s/Int
+   :caracteristic s/Str
+   :tags [Tag]})

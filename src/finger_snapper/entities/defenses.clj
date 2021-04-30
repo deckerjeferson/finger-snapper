@@ -10,7 +10,6 @@
    :level 1
    :description "There are able-bodied men and women with worn weapons ready to be called, but no standing force."})
 
-
 (def watch
   {:name "Watch"
    :level 2

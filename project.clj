@@ -7,6 +7,7 @@
                  [org.clojure/clojure "1.10.1"]
                  [prismatic/schema "1.1.12"]
                  [org.clojure/test.check "1.1.0"]
+                 [nubank/matcher-combinators "3.1.4"]
                  ]
   :main ^:skip-aot finger-snapper.core
   :target-path "target/%s"
