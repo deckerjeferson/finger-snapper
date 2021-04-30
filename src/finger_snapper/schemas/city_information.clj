@@ -3,7 +3,8 @@
 
 (def Tag
   {:name s/Str
-   :description s/Str})
+   :description s/Str
+   :chosen-item s/Str})
 
 (def Caracteristic
   {:description s/Str
