@@ -4,7 +4,8 @@
 (def Tag
   {:name s/Str
    :description s/Str
-   :chosen-item s/Str})
+   :chosen-item s/Str
+   :collection [s/Str]})
 
 (def Caracteristic
   {:description s/Str

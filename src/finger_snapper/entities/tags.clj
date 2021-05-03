@@ -13,17 +13,17 @@
 (def resource
   {:name "Resource"
    :description "The steading has easy access to the listed resource (e.g., a spice, a type of ore, fish, grapes). That resource is significantly cheaper."
-   :check-fn entities.collections/resources})
+   :collection entities.collections/resources})
 
 (def need
   {:name "Need"
    :description "The steading has an acute or ongoing need for the listed resource. That resource sells for considerably more."
-   :check-fn entities.collections/resources})
+   :collection entities.collections/resources})
 
 (def oath
   {:name "Oath"
    :description "The steading has sworn oaths to the listed steadings. These oaths are generally of fealty or support, but may be more specific."
-   :check-fn entities.collections/steadings})
+   :collection entities.collections/steadings})
 
 (def trade
   {:name "Trade"
@@ -32,13 +32,13 @@
 (def market
   {:name "Market"
    :description "Everyone comes here to trade. On any given day the available items may be far beyond their prosperity. +1 to supply."
-   :check-fn entities.collections/resources}
+   :collection entities.collections/resources}
   )
 
 (def enmity
   {:name "Enmity"
    :description "The steading holds a grudge against the listed steadings."
-   :check-fn entities.collections/steadings})
+   :collection entities.collections/steadings})
 
 (def history
   {:name "History"
@@ -51,12 +51,12 @@
 (def divine
   {:name "Divine"
    :description "There is a major religious presence, maybe a cathedral or monastery. They can heal and maybe even raise the dead for a donation or resolution of a quest. Take +1 to recruit priests here."
-   :check-fn entities.collections/religions})
+   :collection entities.collections/religions})
 
 (def guild
   {:name "Guild"
    :description "The listed type of guild has a major presence (and usually a fair amount of influence). If the guild is closely associated with a type of hireling, +1 to recruit that type of hireling."
-   :check-fn entities.collections/guilds})
+   :collection entities.collections/guilds})
 
 (def personage
   {:name "Personage"
@@ -77,9 +77,9 @@
 (def blight
   {:name "Blight"
    :description "The steading has a recurring problem, usually a type of monster."
-   :check-fn entities.collections/monsters})
+   :collection entities.collections/monsters})
 
 (def power
   {:name "Power"
    :description "The steading holds sway of some type. Typically political, divine, or arcane."
-   :check-fn entities.collections/powers})
+   :collection entities.collections/powers})
